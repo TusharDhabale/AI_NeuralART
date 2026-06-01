@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
+
+# Ignore Python bytecode directories
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Local virtual environment
+.venv/
+
+# Generated upload/output files
+static/uploads/*
+!static/uploads/.gitkeep
+NST_Code/static/uploads/*
